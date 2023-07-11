@@ -1,0 +1,55 @@
+body {
+    background-color: #3c329a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+
+  .pwskills{
+    color: #1d184c;
+    position: absolute;
+    top: 20px;
+    font-size: 10rem;
+    letter-spacing: 2rem;
+  }
+  
+  .clock {
+    background-color: #6758f6;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #time {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+  }
+
+  #time div p{
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+
+  .hour, .minute, .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
